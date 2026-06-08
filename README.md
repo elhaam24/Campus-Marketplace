@@ -2,7 +2,8 @@
 
 Spring Boot REST API for a university student marketplace.
 
-![Uploading {BF62CAD3-B66D-4760-8762-D16AB8697E96}.png…]()
+![Uploading image.png…]()
+
 
 
 ## Project Structure
