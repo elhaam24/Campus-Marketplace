@@ -2,18 +2,8 @@
 
 Spring Boot REST API for a university student marketplace.
 
-## Stack
+![Uploading {BF62CAD3-B66D-4760-8762-D16AB8697E96}.png…]()
 
-- Java 17
-- Spring Boot 3
-- Spring Web
-- Spring Security
-- Spring Data JPA
-- MySQL
-- JWT authentication
-- Next.js
-- React
-- Tailwind CSS
 
 ## Project Structure
 
@@ -60,22 +50,6 @@ GET    /api/notifications
 PATCH  /api/notifications/{id}/read
 ```
 
-## Local Setup
-
-Update `src/main/resources/application.yml` with your MySQL username, password, and database name.
-
-Then run:
-
-```bash
-mvn spring-boot:run
-```
-
-Authenticated requests need:
-
-```text
-Authorization: Bearer <jwt-token>
-```
-
 ## Frontend
 
 The Next.js frontend lives in `frontend/`.
@@ -91,10 +65,3 @@ Included screens:
 /dashboard    Student seller dashboard
 ```
 
-Run it with:
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
