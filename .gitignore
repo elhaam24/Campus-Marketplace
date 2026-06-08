@@ -1,0 +1,9 @@
+target/
+frontend/.next/
+frontend/node_modules/
+frontend/out/
+.idea/
+.vscode/
+*.iml
+.env
+.DS_Store
